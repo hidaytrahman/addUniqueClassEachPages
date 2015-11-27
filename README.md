@@ -1,4 +1,4 @@
-# custom-hr
+# Add Unique Class on Body using JQuery
 
 Add unique Class on All pages using JQuery
 
