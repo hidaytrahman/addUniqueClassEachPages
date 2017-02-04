@@ -1,9 +1,21 @@
 # Add Unique Class on Body using JQuery
 
-Add unique Class on All pages using JQuery
+Add unique Class on All pages using JQuery/JavaScript only
 
-@ demo https://rawgit.com/hidaytrahman/addUniqueClassEachPages/master/index.html
+### JavaScript only
+```
+var loc = window.location.href;
+var output  = loc.split('/').pop().split('.').shift()
+document.body.className="page" + output;
+```
 
+### jQuery
+```
+var loc = window.location.href;
+var output  = loc.split('/').pop().split('.').shift();
+$("body").addClassN("page" + output);
+```
 
-It will add unique class on all pages without any backend language.
+[Demo](https://rawgit.com/hidaytrahman/addUniqueClassEachPages/master/index.html)
+
 
